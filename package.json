@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-oceanjs",
+  "version": "0.0.8",
+  "description": "ESLint rules for EAA projects",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "package.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/environment-agency-austria/eslint-eaa-contrib.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/environment-agency-austria/eslint-eaa-contrib/issues"
+  },
+  "homepage": "https://github.com/environment-agency-austria/eslint-eaa-contrib#readme",
+  "peerDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.10.0"
+  }
+}
