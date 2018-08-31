@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## Unversioned changes
+## 0.1.0 - 2018-08-31
 * eslint dependencies version upgrade
 
 ## 0.0.8 - 2018-07-03
