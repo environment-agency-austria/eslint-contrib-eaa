@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-oceanjs",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "description": "ESLint rules for EAA projects",
   "main": "index.js",
   "files": [
