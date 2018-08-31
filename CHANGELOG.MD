@@ -1,6 +1,9 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Unversioned changes
+* eslint dependencies version upgrade
+
 ## 0.0.8 - 2018-07-03
 * Disabled object-curly-newline
 
