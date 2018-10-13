@@ -1,5 +1,7 @@
 # eslint-config-oceanjs
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/environment-agency-austria/eslint-eaa-contrib.svg)](https://greenkeeper.io/)
+
 This package provides an extensible extensible shared config based on the .eslintrc for EAA projects.
 
 ## Installation
