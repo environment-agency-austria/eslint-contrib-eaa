@@ -5,37 +5,42 @@
  */
 
 module.exports = {
-  extends: 'airbnb',
+  parser: '@typescript-eslint/parser',
   env: {
+    es6: true,
     browser: true,
     node: true,
-    jest: true,
+    jest: true
   },
-  plugins: ['react', 'import', 'babel'],
+  parserOptions: {
+    jsx: true,
+    useJSXTextNode: true
+  },
   settings: {
-    'import/parser': 'babel-eslint',
+    react: {
+      version: 'detect'
+    }
   },
-  parser: 'babel-eslint',
+  extends: [
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:react/recommended'
+  ],
+  plugins: ['@typescript-eslint', 'react-hooks'],
   rules: {
-    'require-jsdoc': ['error', {
-      require: {
-        FunctionDeclaration: true,
-        MethodDefinition: false,
-        ClassDeclaration: true,
-        ArrowFunctionExpression: true,
-        FunctionExpression: true,
-      },
-    }],
-    'no-underscore-dangle': 0,
-    'import/no-extraneous-dependencies': 0,
-    'class-methods-use-this': 0,
-    'arrow-body-style': 0,
-    'import/extensions': ['error', 'ignorePackages', {
-      js: 'never',
-      mjs: 'never',
-      jsx: 'never',
-    }],
-    'react/jsx-one-expression-per-line': 0,
-    'object-curly-newline': 0,
-  },
-};
+    'indent': 'off',
+    'no-console': 'warn',
+
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
+
+    '@typescript-eslint/indent': ['error', 2],
+    '@typescript-eslint/interface-name-prefix': 'off',
+    '@typescript-eslint/camelcase': 'off',
+    '@typescript-eslint/no-angle-bracket-type-assertion': 'off',
+    '@typescript-eslint/explicit-member-accessibility': 'off',
+    '@typescript-eslint/no-non-null-assertion': 'warn',
+    '@typescript-eslint/prefer-interface': 'warn'
+  }
+}
+
