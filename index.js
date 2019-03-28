@@ -31,6 +31,8 @@ module.exports = {
     'indent': 'off',
     'no-console': 'warn',
 
+    'react/prop-types': 'off',
+
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
 
@@ -40,7 +42,11 @@ module.exports = {
     '@typescript-eslint/no-angle-bracket-type-assertion': 'off',
     '@typescript-eslint/explicit-member-accessibility': 'off',
     '@typescript-eslint/no-non-null-assertion': 'warn',
-    '@typescript-eslint/prefer-interface': 'warn'
+    '@typescript-eslint/prefer-interface': 'warn',
+    '@typescript-eslint/no-empty-interface': 'off',
+    '@typescript-eslint/no-use-before-define': 'off',
+    '@typescript-eslint/no-unused-vars': ['warn', { 'ignoreRestSiblings': true }],
+    '@typescript-eslint/no-object-literal-type-assertion': 'off'
   }
 }
 
