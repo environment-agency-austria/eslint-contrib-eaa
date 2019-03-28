@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Unreleased
+* Added typescript support
+* Simplified rules to only use react:recommended, eslint:recommended, react-hooks and some rules from @typescript-eslint/recommended
+
 ## 0.1.0 - 2018-08-31
 * eslint dependencies version upgrade
 
