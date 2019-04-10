@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.1.0 - 2019-04-10
+* Enabled `allowExpressions` and `allowTypedFunctionExpressions` in `explicit-function-return-type` rule, see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/explicit-function-return-type.md
+* Updated peer dependencies
+
 ## 1.0.0 - 2019-03-28
 * Added typescript support
 * Simplified rules to only use react:recommended, eslint:recommended, react-hooks and some rules from @typescript-eslint/recommended
