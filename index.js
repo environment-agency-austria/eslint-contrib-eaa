@@ -46,7 +46,8 @@ module.exports = {
     '@typescript-eslint/no-empty-interface': 'off',
     '@typescript-eslint/no-use-before-define': 'off',
     '@typescript-eslint/no-unused-vars': ['warn', { 'ignoreRestSiblings': true }],
-    '@typescript-eslint/no-object-literal-type-assertion': 'off'
+    '@typescript-eslint/no-object-literal-type-assertion': 'off',
+    '@typescript-eslint/explicit-function-return-type': ['warn', { 'allowExpressions': true, 'allowTypedFunctionExpressions': true }],
   }
 }
 
