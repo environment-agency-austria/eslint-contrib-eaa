@@ -1,4 +1,3 @@
-### Intention
 I want to:
 - [ ] add a new rule
 - [ ] edit an existing rule
