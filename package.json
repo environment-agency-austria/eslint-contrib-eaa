@@ -23,11 +23,17 @@
     "url": "https://github.com/environment-agency-austria/eslint-eaa-contrib/issues"
   },
   "homepage": "https://github.com/environment-agency-austria/eslint-eaa-contrib#readme",
-  "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^1.6.0",
-    "@typescript-eslint/parser": "^1.6.0",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "~1.6.0",
+    "@typescript-eslint/parser": "~1.6.0",
+    "eslint-plugin-react": "~7.12.4",
+    "eslint-plugin-react-hooks": "~1.6.0"
+  },
+  "devDependencies": {
     "eslint": "^5.16.0",
-    "eslint-plugin-react": "^7.12.4",
-    "eslint-plugin-react-hooks": "^1.6.0"
+    "typescript": "^3.4.3"
+  },
+  "peerDependencies": {
+    "eslint": "^5.16.0"
   }
 }
